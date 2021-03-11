@@ -1,0 +1,17 @@
+server:
+  port: 8091
+
+spring:
+  application:
+    name: jwt-demo
+    description: jwt demo
+    version : @project.version@
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/myhotel
+    username : root
+    password : root
+  jpa:
+    hibernate :
+      ddl-auto : create
+      show-sql : true
